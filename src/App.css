@@ -1,0 +1,30 @@
+#root {
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.target {
+    word-break: break-all;
+    width: 70%;
+}
+
+.page__wrapper{
+    margin-top: 30px;
+    flex-wrap: wrap;
+    display: flex;
+    width: 100%;
+
+}
+.page{
+    margin: 2px;
+    width: 5%;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid teal;
+    cursor: pointer;
+}
+
+.page__current{
+    border: 2px solid orange;
+    font-weight: bold;
+}
