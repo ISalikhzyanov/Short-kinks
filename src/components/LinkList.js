@@ -25,7 +25,7 @@ const LinkList = ({links}) => {
                             <td className='target'>{link.target}</td>
                             <td>
                                 <a href={`http://79.143.31.216/s/${link.short}`}
-                                onClick={()=>{navigator.clipboard.writeText(`http://79.143.31.216/s/${link.short}`);window.alert('Текст скопирован')}}
+                                onClick={()=>{navigator.clipboard.writeText(`http://79.143.31.216/s/${link.short}`);window.alert('Ссылка скопирована')}}
                                 >{link.short} </a>
                             </td>
                             <td>{link.counter}</td>
